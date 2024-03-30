@@ -7,10 +7,10 @@ public class Main {
 
         bancoInicial.setNome("First Bank"); //insere nome do banco
 
-        Cliente carla = new Cliente("Carla", bancoInicial);  //criado novo cliente carla
-        carla.setNome("Carla Edila Silveira"); //insere o nome do cliente
+        Cliente carla = new Cliente("Mário", bancoInicial);  //criado novo cliente mario
+        carla.setNome("CMário Pereira Lacerda"); //insere o nome do cliente
 
-        Conta ccorrente = new ContaCorrente(carla); //instanciada nova conta corrente
+        Conta ccorrente = new ContaCorrente(mario); //instanciada nova conta corrente
 
         ccorrente.depositar(100); //criado um deposito em conta corrente
 
